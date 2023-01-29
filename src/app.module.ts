@@ -21,5 +21,6 @@ import { ApolloDriver, ApolloDriverConfig } from '@nestjs/apollo';
   ],
   controllers: [AppController],
   providers: [AppService],
+  /*providers: [UsersResolver],*/
 })
 export class AppModule {}
